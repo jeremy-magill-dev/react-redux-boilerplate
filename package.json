@@ -4,12 +4,15 @@
   "description": "Boilerplate for beginning a project with React & Redux",
   "main": "index.js",
   "scripts": {
+    "server": "node server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Jeremy Magill",
   "license": "ISC",
-  
   "dependencies": {
     "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
   }
 }
